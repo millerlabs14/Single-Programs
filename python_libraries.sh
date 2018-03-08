@@ -4,31 +4,61 @@
 #Purpose: Download commonly used Python libraries
 #Notes:   To run--> go to directory of this file and type ./python_libraries.sh in command line"
 
+echo "==============================================="
+echo "adding repository for unetbootin:"
+sudo add-apt-repository ppa:gezakovacs/ppa
+sudo apt-get update
+echo "==============================================="
+
+echo "==============================================="
+echo "Downloading Unetbootin..."
+sudo apt-get install unetbootin
+echo "==============================================="
+
+echo "==============================================="
 echo "Downloading Python Libraries...."
+echo "==============================================="
 
-echo "numpy:----------------------------------"
+echo "==============================================="
+echo "numpy:"
 sudo apt-get install python3-numpy
+echo "==============================================="
 
-echo "scikit-learn:----------------------------------"
+echo "==============================================="
+echo "scikit-learn:"
 sudo pip3 install scikit-learn
+echo "==============================================="
 
-echo "matplotlib:----------------------------------"
+echo "==============================================="
+echo "matplotlib:"
 sudo pip3 install matplotlib
+echo "==============================================="
 
-echo "scipy:----------------------------------"
+echo "==============================================="
+echo "scipy:"
 sudo apt-get install python3-scipy
+echo "==============================================="
 
-echo "beautifulsoup4:----------------------------------"
+echo "==============================================="
+echo "beautifulsoup4:"
 sudo apt-get install python3-bs4
+echo "==============================================="
 
-echo "pandas:---------------------------------"
+echo "==============================================="
+echo "pandas:"
 sudo apt-get install python3-pandas
+echo "==============================================="
 
-echo "pandas-datareader:---------------------------------"
+echo "==============================================="
+echo "pandas-datareader:"
 sudo pip3 install pandas-datareader
+echo "==============================================="
 
-echo "tkinter:--------------------------------"
+echo "==============================================="
+echo "tkinter:"
 sudo apt-get install python3-Tk
+echo "==============================================="
+
 
 
 #END
