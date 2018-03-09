@@ -21,37 +21,22 @@ echo "==============================================="
 
 echo "==============================================="
 echo "numpy:"
-sudo apt-get install python3-numpy
-echo "==============================================="
-
-echo "==============================================="
-echo "scikit-learn:"
-sudo pip3 install scikit-learn
-echo "==============================================="
-
-echo "==============================================="
-echo "matplotlib:"
-sudo pip3 install matplotlib
+apt-get install python3-numpy
 echo "==============================================="
 
 echo "==============================================="
 echo "scipy:"
-sudo apt-get install python3-scipy
+apt-get install python3-scipy
 echo "==============================================="
 
 echo "==============================================="
 echo "beautifulsoup4:"
-sudo apt-get install python3-bs4
+apt-get install python3-bs4
 echo "==============================================="
 
 echo "==============================================="
 echo "pandas:"
-sudo apt-get install python3-pandas
-echo "==============================================="
-
-echo "==============================================="
-echo "pandas-datareader:"
-sudo pip3 install pandas-datareader
+apt-get install python3-pandas
 echo "==============================================="
 
 echo "==============================================="
@@ -59,6 +44,19 @@ echo "tkinter:"
 sudo apt-get install python3-Tk
 echo "==============================================="
 
+echo "==============================================="
+echo "pandas-datareader:"
+pip3 install pandas-datareader
+echo "==============================================="
 
+echo "==============================================="
+echo "scikit-learn:"
+pip3 install scikit-learn
+echo "==============================================="
+
+echo "==============================================="
+echo "matplotlib:"
+pip3 install matplotlib
+echo "==============================================="
 
 #END
