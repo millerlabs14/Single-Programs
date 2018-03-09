@@ -21,42 +21,42 @@ echo "==============================================="
 
 echo "==============================================="
 echo "numpy:"
-apt-get install python3-numpy
+sudo apt-get install python3-numpy
 echo "==============================================="
 
 echo "==============================================="
 echo "scipy:"
-apt-get install python3-scipy
+sudo apt-get install python3-scipy
 echo "==============================================="
 
 echo "==============================================="
 echo "beautifulsoup4:"
-apt-get install python3-bs4
+sudo apt-get install python3-bs4
 echo "==============================================="
 
 echo "==============================================="
 echo "pandas:"
-apt-get install python3-pandas
+sudo apt-get install python3-pandas
 echo "==============================================="
 
 echo "==============================================="
 echo "tkinter:"
-sudo apt-get install python3-Tk
+sudo apt-get install python3-tk
 echo "==============================================="
 
 echo "==============================================="
 echo "pandas-datareader:"
-pip3 install pandas-datareader
+sudo -H pip3 install pandas-datareader
 echo "==============================================="
 
 echo "==============================================="
 echo "scikit-learn:"
-pip3 install scikit-learn
+sudo -H pip3 install scikit-learn
 echo "==============================================="
 
 echo "==============================================="
 echo "matplotlib:"
-pip3 install matplotlib
+sudo -H pip3 install matplotlib
 echo "==============================================="
 
 #END
