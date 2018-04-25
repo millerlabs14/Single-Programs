@@ -1,7 +1,7 @@
 #!/bin/bash
 #Author:  William Miller
 #Date:    3-7-18
-#Purpose: Download commonly used Python libraries
+#Purpose: Download commonly used Python libraries and other software
 #Notes:   To run--> go to directory of this file and type ./python_libraries.sh in command line"
 
 echo "==============================================="
@@ -13,6 +13,11 @@ echo "==============================================="
 echo "==============================================="
 echo "Downloading Unetbootin..."
 sudo apt-get install unetbootin
+echo "==============================================="
+
+echo "==============================================="
+echo "Downloading Arduino IDE:"
+sudo sudo apt-get update && sudo apt-get install arduino arduino-core
 echo "==============================================="
 
 echo "==============================================="
