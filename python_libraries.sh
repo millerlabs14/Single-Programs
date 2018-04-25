@@ -64,4 +64,10 @@ echo "matplotlib:"
 sudo -H pip3 install matplotlib
 echo "==============================================="
 
+echo "==============================================="
+echo "pyserial (for communication between Arduino and python):"
+sudo -H pip3 install pyserial
+echo "==============================================="
+
+
 #END
